@@ -1,0 +1,162 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#container{
+  background:#42445A;
+  width:100vw;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#areaCalculator{
+  width:100vw;
+  height:90vh;
+  background:#202020;
+  border-radius: 12px;
+}
+#areaScreen{
+  
+  height:10%;
+  width:100%;
+  background:#33383E;
+  border-radius:12px 12px 0px 0px;
+  
+  outline: none;
+  color:#fff;
+  font-size: 2rem;
+  padding:5px;
+  border:none;
+}
+#areaScreen:after{
+  content:"|";
+  color:#50B0F0;
+}
+#screen{
+  display: none;
+}
+#areaResult{
+  height:10%;
+  width:100%;
+  background:#33383E;
+  border-radius:0px 0px 12px 12px;
+  border:none;
+  outline: none;
+  color:#fff;
+  font-size: 1.5rem;
+  padding:5px;
+  text-align: right;
+}
+#areaKeyboard{
+  display: grid;
+  grid-template-areas:'a1 a2 a3 a4' 'b1 b2 b3 b4' 'c1 c2 c3 c4' 'd1 d2 d3 d4' 'e1 e2 e3 e4';
+  justify-content: space-around;
+  height:70%;
+  margin-top:15%;
+  padding:10px;
+}
+#areaKeyboard button{
+  width:18vw;
+  height:18vw;
+  background:#33383E;
+  border-radius:50%;
+  text-align: center;
+  line-height: 18vw;
+  font-size:15pt;
+  color:#fff;
+}
+
+/*keyboard calculator*/
+button#a1{
+  grid-area: a1;
+  background:#A0C8B0;
+  color:#000;
+}
+button#a2 {
+  grid-area: a2;
+  background:#50B0F0;
+  color:#000;
+}
+button#a3 {
+  grid-area: a3;
+  background:#50B0F0;
+  color:#000;
+}
+button#a4 {
+  grid-area: a4;
+  background:#50B0F0;
+  color:#000;
+}
+
+
+/**/
+button#b1{
+  grid-area: b1;
+ 
+}
+button#b2 {
+  grid-area: b2;
+}
+button#b3 {
+  grid-area: b3;
+}
+button#b4 {
+  grid-area: b4;
+  background:#50B0F0;
+  color:#000;
+}
+
+/**/
+button#c1{
+  grid-area: c1;
+  
+}
+button#c2 {
+  grid-area: c2;
+}
+button#c3 {
+  grid-area: c3;
+}
+button#c4 {
+  grid-area: c4;
+  background:#50B0F0;
+  color:#000;
+}
+
+/**/
+button#d1{
+  grid-area: d1;
+ 
+}
+button#d2 {
+  grid-area: d2;
+}
+button#d3 {
+  grid-area: d3;
+}
+button#d4 {
+  grid-area: d4;
+  background:#50B0F0;
+  color:#000;
+}
+
+/**/
+button#e1{
+  grid-area: e1;
+ 
+}
+buttom#e2 {
+  grid-area: e2;
+  font-size:25pt;
+}
+buttom#e3 {
+  grid-area: e3;
+}
+button#e4 {
+  grid-area: e4;
+  background:#B8D0F0;
+  color:#000;
+}
