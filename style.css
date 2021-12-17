@@ -3,7 +3,76 @@
     padding:0;
     box-sizing:border-box;
 }
+#container{
+  background:#42445A;
+  width:100vw;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+ 
+}
+#areaCalculator{
+  width:60vw;
+  height:60vh;
+  background:#202020;
+  border-radius: 12px;
+}
+#areaScreen{
+  
+  height:10%;
+  width:100%;
+  background:#33383E;
+  border-radius:12px 12px 0px 0px;
+  
+  outline: none;
+  color:#fff;
+  font-size: 2rem;
+  padding:5px;
+  border:none;
+}
+#areaScreen:after{
+  content:"|";
+  color:#50B0F0;
+}
+#screen{
+  display: none;
+}
+#areaResult{
+  height:10%;
+  width:100%;
+  background:#33383E;
+  border-radius:0px 0px 20px 20px;
+  border:none;
+  outline: none;
+  color:#fff;
+  font-size: 1.5rem;
+  padding:5px;
+  text-align: right;
+  
+}
+#areaKeyboard{
+  display: grid;
+  grid-template-areas:'a1 a2 a3 a4' 'b1 b2 b3 b4' 'c1 c2 c3 c4' 'd1 d2 d3 d4' 'e1 e2 e3 e4';
+  justify-content: space-around;
+  height:70%;
+  margin-top:15%;
+  padding:10px;
+}
+#areaKeyboard button{
+  width:100px;
+  height:100px;
+  background:#33383E;
+  border-radius:50%;
+  text-align: center;
+  line-height: 100px;
+  font-size:15pt;
+  color:#fff;
+}
 
+@media (max-width: 900px)
+{
 #container{
   background:#42445A;
   width:100vw;
@@ -42,13 +111,14 @@
   height:10%;
   width:100%;
   background:#33383E;
-  border-radius:0px 0px 12px 12px;
+  border-radius:0px 0px 20px 20px;
   border:none;
   outline: none;
   color:#fff;
   font-size: 1.5rem;
   padding:5px;
   text-align: right;
+  
 }
 #areaKeyboard{
   display: grid;
@@ -159,4 +229,5 @@ button#e4 {
   grid-area: e4;
   background:#B8D0F0;
   color:#000;
+}
 }
