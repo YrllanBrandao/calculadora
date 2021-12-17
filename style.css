@@ -18,6 +18,9 @@
   height:60vh;
   background:#202020;
   border-radius: 12px;
+  display:flex;
+  flex-direction: column;
+}
 }
 #areaScreen{
   
