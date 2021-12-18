@@ -64,8 +64,8 @@
   padding:10px;
 }
 #areaKeyboard button{
-  width:20%;
-  height:width;
+  width:5vw;
+  height:5vw;
   background:#33383E;
   border-radius:50%;
   text-align: center;
