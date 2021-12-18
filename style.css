@@ -65,7 +65,7 @@
 }
 #areaKeyboard button{
   width:20%;
-  height:20%;
+  height:width;
   background:#33383E;
   border-radius:50%;
   text-align: center;
