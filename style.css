@@ -20,6 +20,7 @@
   border-radius: 12px;
   display:flex;
   flex-direction: column;
+  margin-top:-100px;
 }
 }
 #areaScreen{
