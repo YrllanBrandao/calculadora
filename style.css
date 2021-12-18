@@ -74,7 +74,97 @@
   font-size:15pt;
   color:#fff;
 }
+/*keyboard calculator*/
+button#a1{
+  grid-area: a1;
+  background:#A0C8B0;
+  color:#000;
+}
+button#a2 {
+  grid-area: a2;
+  background:#50B0F0;
+  color:#000;
+}
+button#a3 {
+  grid-area: a3;
+  background:#50B0F0;
+  color:#000;
+}
+button#a4 {
+  grid-area: a4;
+  background:#50B0F0;
+  color:#000;
+}
 
+
+/**/
+button#b1{
+  grid-area: b1;
+ 
+}
+button#b2 {
+  grid-area: b2;
+}
+button#b3 {
+  grid-area: b3;
+}
+button#b4 {
+  grid-area: b4;
+  background:#50B0F0;
+  color:#000;
+}
+
+/**/
+button#c1{
+  grid-area: c1;
+  
+}
+button#c2 {
+  grid-area: c2;
+}
+button#c3 {
+  grid-area: c3;
+}
+button#c4 {
+  grid-area: c4;
+  background:#50B0F0;
+  color:#000;
+}
+
+/**/
+button#d1{
+  grid-area: d1;
+ 
+}
+button#d2 {
+  grid-area: d2;
+}
+button#d3 {
+  grid-area: d3;
+}
+button#d4 {
+  grid-area: d4;
+  background:#50B0F0;
+  color:#000;
+}
+
+/**/
+button#e1{
+  grid-area: e1;
+ 
+}
+buttom#e2 {
+  grid-area: e2;
+  font-size:25pt;
+}
+buttom#e3 {
+  grid-area: e3;
+}
+button#e4 {
+  grid-area: e4;
+  background:#B8D0F0;
+  color:#000;
+}
 @media (max-width: 900px)
 {
 #container{
